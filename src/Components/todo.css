@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(12, 12, 37);
+}
+
+.app-wrapper{
+    /* border: 1px solid brown; */
+    display: flex;
+    justify-content: center;
+}
+
+.content-wrapper{
+    /* border: 1px solid gray; */
+    box-shadow: 1px 1px 1px 1px grey;
+    /* height: 400px; */
+    margin: 50px auto;
+    width: 500px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.app-head{
+    /* border: 1px solid blue; */
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    color: white;
+    text-shadow: 2px 2px grey;
+}
+
+.input-wrapper{
+    /* border: 1px solid orange; */
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.input-box{
+    /* border: 1px solid yellow; */
+    border: none;
+    outline: none;
+    font-family: initial;
+    font-size: 15px;
+}
+
+.list-items{
+    /* border: 1px solid #a52a2a; */
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.each-item{
+    /* border: 1px solid greenyellow; */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px;
+    color: black;
+    background-color: honeydew;
+    border-radius: 10px;
+    font-family: initial;
+    font-weight: bold;
+}
+
+.item-name{
+    border: none;
+}
+
+.icon-style{
+    padding: 2px;
+    cursor: pointer;
+}
+.clear-btn{
+    /* border: 1px solid darkblue; */
+    background-color: orange;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.clear-btn:hover{
+background-color: orangered;
+}
